@@ -6,7 +6,7 @@ function openModule(){
     document.body.classList.add(module-open)
     const firstField=document.getElementById("name")
     if(firstField){
-        setTimeout(() =>firstField.focus(,50) {
+        setTimeout(() =>firstField.focus(50) {
             
         }, timeout);
     }
